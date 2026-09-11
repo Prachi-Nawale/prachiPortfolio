@@ -36,7 +36,7 @@ export function Navbar({ theme, toggleTheme }) {
           <span className="brand-name">Prachi Nawale</span>
         </button>
 
-        <div className={`nav-links ${menuOpen ? "is-open" : ""}`}>
+        <div id="mobile-navigation" className={`nav-links ${menuOpen ? "is-open" : ""}`}>
           {navigation.map(({ label, id }) => (
             <button
               key={id}
